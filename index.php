@@ -29,6 +29,7 @@
 		<!-- jQuery v3.0 -->
 		<script>src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"</script>
 
+
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
@@ -44,7 +45,6 @@
 			<div class="row">
 				<div class="col-md-6 col-md-offset-4">
 					<h1>JavaScript</h1>
-
 				</div><!-- /.col-md-6 -->
 			</div><!-- /.row -->
 			<div class="row">
@@ -52,8 +52,15 @@
 				<div class="col-md-4" id="box2" onmousemove="writeStuff();">Roll over for lots of fuzzy</div>
 				<div class="col-md-4" id="text"></div>
 			</div><!-- /.row -->
+			<div class="row text">
+				<div class="col-md-4">
+					<form name="form1" onsubmit="return validateForm()" method="post">
+						<label for="form-input">Type Something: </label>
+						<input type="text" id="form-input" name="text-area"/>
+						<input type="submit" value="Submit">
+					</form>
+				</div><!-- /.col-md-8 -->
+			</div><!-- /.row text -->
 		</div><!-- /.container -->
-
-
 	</body>
 </html>

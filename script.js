@@ -9,5 +9,18 @@ function mouseOut() {
 }
 
 function writeStuff() {
-	document.getElementById("box2").innerHTML = document.getElementById("text").textContent += " Fuzzzy";
+	 document.getElementById("box2").value = document.getElementById("text").textContent += " Fuzzzy";
 }
+
+function validateForm() {
+	var input = document.forms["form1"]["text-area"].value;
+	if(input == "") {
+		window.alert("Aren't you defiant. Type something first please.");
+		return false;
+	} else {
+		window.alert("Sorry wrong answer");
+	}
+}
+
+
+
