@@ -27,13 +27,15 @@
 		<![endif]-->
 
 		<!-- jQuery v3.0 -->
-		<script>src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"</script>
 
 
 		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-				  crossorigin="anonymous"></script>
+		<
+		script
+		src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity = "sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		crossorigin = "anonymous" ></script>
 
 		<script type="text/javascript" src="script.js"></script>
 
@@ -61,6 +63,13 @@
 					</form>
 				</div><!-- /.col-md-8 -->
 			</div><!-- /.row text -->
+			<br>
+			<div class="row">
+				<div class="col-md-2">
+					<button type="submit" id="bacon">Bacon-fy</button>
+					<div id="bacon-here"></div>
+				</div>
+			</div>
 		</div><!-- /.container -->
 	</body>
 </html>
