@@ -31,6 +31,17 @@ $(document).ready(function() {
 	});
 });
 
+$(function() {
+	$(document).ready(function() {
+		$("#soccer-text").hide();
+	});
+});
+
+$(function() {
+	$("#soccer").click(function() {
+		$("#soccer-text").show();
+	});
+});
 
 
 
