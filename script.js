@@ -24,7 +24,7 @@ function validateForm() {
 
 $(document).ready(function() {
 	$('#bacon').click(function() {
-		$.ajax({url: "https://baconipsum.com/api/?type=all-meat&sentences=4&start-with-lorem=1",
+		$.ajax({url: "https://baconipsum.com/api/?type=meat-and-filler&paras=5&format=text",
 		success: function(result) {
 			$('#bacon-here').html(result);
 		}});

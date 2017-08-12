@@ -31,9 +31,7 @@
 
 
 		<!-- Latest compiled and minified JavaScript -->
-		<
-		script
-		src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 		integrity = "sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 		crossorigin = "anonymous" ></script>
 
@@ -49,11 +47,15 @@
 					<h1>JavaScript</h1>
 				</div><!-- /.col-md-6 -->
 			</div><!-- /.row -->
+		</div><!-- /.container -->
+		<div class="container">
 			<div class="row">
 				<div class="col-md-4" id="box" onmouseenter="mouseEnter();" onmouseout="mouseOut();">Not fuzzy</div>
 				<div class="col-md-4" id="box2" onmousemove="writeStuff();">Roll over for lots of fuzzy</div>
 				<div class="col-md-4" id="text"></div>
 			</div><!-- /.row -->
+		</div><!-- /.container -->
+		<div class="container">
 			<div class="row text">
 				<div class="col-md-4">
 					<form name="form1" onsubmit="return validateForm()" method="post">
@@ -63,13 +65,15 @@
 					</form>
 				</div><!-- /.col-md-8 -->
 			</div><!-- /.row text -->
+		</div><!-- /.container -->
 			<br>
+		<div class="container">
 			<div class="row">
-				<div class="col-md-2">
-					<button type="submit" id="bacon">Bacon-fy</button>
+				<div class="col-md-12">
+					<button type="submit" id="bacon">Show Me Da Bacon</button>
 					<div id="bacon-here"></div>
-				</div>
-			</div>
+				</div><!-- /.col-md-12 -->
+			</div><!-- /.row -->
 		</div><!-- /.container -->
 	</body>
 </html>
